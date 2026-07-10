@@ -1,20 +1,201 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-        <div id="button">
-          <a href="login.html">Log In</a>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- SEO -->  
+<title>Said Ikki</title>
+<meta name="description" content="The best AI and Software Engineer in Canada" />
+
+<!-- Favicon  --> 
+<link rel="icon" href="./assets/img/global/favicon.ico" sizes="any" />
+<!----> 
+
+<!-- Socials -->
+<meta property="og:title" content="Said Ikki" />
+<meta property="og:description" content="Top-rated public service engineer and AI developer" />
+<meta property="og:type" content="website" />
+
+<!-- Styles + JS -->    
+<link rel="preload" href="./assets/css/styles.css?v=0.8" as="style" />
+<link rel="stylesheet" href="./assets/css/colors.css?v=0.8" /> 
+<link rel="stylesheet" href="./assets/css/styles.css?v=0.8" />  
+<script defer src="./assets/js/siema.min.js?v=0.8"></script>
+<script defer src="./assets/js/main.js?v=0.8"></script>
+
+</head>
+<body class="scheme-midnight">
+
+<header class="top">
+  <div class="top__left">
+    <img class="top__avatar" src="./assets/img/global/iconoclast.png" alt="Name" />
+    <span class="top__brand">Said Ikki</span>
+  </div>
+  <nav class="top__right">
+  	<div class="links">
+	    <a href="resume.html" class="top__link">Resume</a>
+    </div>
+    <div class="links">
+	    <a href="#about" class="top__link">Contact Me</a>
+    </div>
+    <a href="index.html" class="top__cta">Game <span class="arrow">→</span></a>
+  </nav>
+</header>
+<section class="hero">
+  <div class="boxed">
+    <span class="eyebrow">The Award-Winning Software Engineer</span>
+    <h1 class="overview">Said Ikki<br>Proficient in AWS, Azure, Agentic AI, and Full-Stack Development</h1>
+  </div>
+</section>
+
+<!-- Portfolio start -->
+<section> 
+  <div class="boxed">
+
+    <!-- Project start -->
+    <div class="slider-group">
+      <div class="siema-wrapper"> 
+        <div class="siema" data-slider="sphere-1">
+          <div><img src="./assets/img/portfolio/20250613-SSCAwardsofexcellence-D010.jpg" alt="My Time at SSC" /></div>
+          <div><img src="./assets/img/portfolio/20250613-SSC Awards Ceremony-D0075.jpg" alt="Slide alt text" /></div>
+          <!--<div><img src="./assets/img/portfolio/sphere-01c.jpg" alt="Slide alt text" /></div>       --> 
+        </div>   
+      </div>
+      <span class="slider-controls">
+        <button class="prev" aria-label="Previous slide">Prev</button>
+        <button class="next" aria-label="Next slide">Next</button> 
+      </span> 
+    </div>
+    <h2 class="slider-heading">Shared Services Canada Recipient of the Student Leadership Award of Excellence</h2>
+    <p>
+        <!---->
+        I worked at Shared Services Canada for two years and was honoured to recieve the 2024 SSC Student Leadership Award! 
+        I was only able to make it this far with my closest friends, colleagues, and family supporting me.
+        <a href="https://www.linkedin.com/posts/shared-services-canada_ssc-awards-of-excellence-activity-7340807066736836610-HwLm">(it might be hard to spot me in the photo)</a>
+    </p>
+   <blockquote>
+        <p>
+            I had earned this award by delivering a phenomenal AWS Agentic solution that connected a Lex bot to an 
+            EC2 hosting a local RAG Ollama model because AWS Bedrock was not permitted at the time. I engineered a solution 
+            that normally would have resulted in a lengthy procurement process!
+        </p>
+    </blockquote>      
+    <!--
+    <p><a href="https://onepagelove.com/sphere" class="cta-project" title="Visit custom link">Link →</a></p> 
+    -->
+    <hr />
+
+    <!-- Project start -->
+    <div class="slider-group">
+      <div class="siema-wrapper"> 
+        <div class="siema" data-slider="sphere-2">
+          <div><img src="./assets/img/portfolio/bachelors.jpg" alt="Slide alt text"   /></div>
+          <div><img src="./assets/img/portfolio/diploma.jpg" alt="Slide alt text"  /></div>
+          <div><img src="./assets/img/portfolio/award.jpg" alt="Slide alt text"  /></div>
+        </div>  
+      </div> 
+      <span class="slider-controls">
+        <button class="prev" aria-label="Previous slide">Prev</button>
+        <button class="next" aria-label="Next slide">Next</button> 
+      </span> 
+    </div>
+    <h2 class="slider-heading">My Academic and Professional Achievements</h2>   
+    <p>
+        Not only was I able to graduate from my Software Engineering Bachelor's degree with First Class Standing, but I was also
+        <a href="https://www.lakeheadu.ca/sites/default/files/uploads/1298/May%202026%20Medals%20for%20Website.pdf">
+            able to get the highest standing when I did!
+        </a>
+        <br>I am thankful to my professors for their support as I continue learning and pursuing more challenges.
+    </p>  
+    <!--   
+    <p><a href="https://onepagelove.com/sphere" class="cta-project" title="Visit custom link">Link →</a></p>
+    -->
+    <hr />
+
+    <!-- Project start -->
+    <div class="slider-group">
+      <div class="siema-wrapper"> 
+        <div class="siema" data-slider="sphere-2">
+          <div><img src="./assets/img/portfolio/Bloom.png" alt="Slide alt text"  /></div>
+          <div><img src="./assets/img/portfolio/IWantToRunAnAgileProject.png" alt="Slide alt text"   /></div>
+          <div><img src="./assets/img/portfolio/DataCommsProject.png" alt="Slide alt text"  /></div>
+        </div>  
+      </div> 
+      <span class="slider-controls">
+        <button class="prev" aria-label="Previous slide">Prev</button>
+        <button class="next" aria-label="Next slide">Next</button> 
+      </span> 
+    </div>
+    <h2>School Projects</h2>   
+    <p>
+        I had the opportunity to work with colleagues on multiple different projects.
+        From audio encryption & compression to secure messaging to open-source plugin development,
+        each project dived deeper into a new and exciting technology that we leveraged together!
+    </p>
+    <p><a href="https://github.com/Jamesmmckay/Bloom/tree/main" class="cta-project" title="Visit Plugin Project">Bloom: Jellyfun Plugin →</a></p>
+    <p><a href="https://github.com/Bmknezev/IWantToRunAnAgileProject" class="cta-project" title="Visit Agile Project">Multichannel Messenger System →</a></p>
+    <p><a href="https://github.com/Said-Ikki/DataCommsProject/tree/master" class="cta-project" title="Visit Secure TCP/IP Project">Secure Audio Transmission →</a></p>
+    <hr />
+
+    <!-- Project start -->
+    <div class="slider-group">
+      <div class="siema-wrapper"> 
+        <div class="siema" data-slider="sphere-4">
+          <div><img src="./assets/img/portfolio/cloud.jpg" alt="Slide alt text"   /></div>
+          <div><img src="./assets/img/portfolio/ai.jpg" alt="Slide alt text"  /></div>
+          <div><img src="./assets/img/portfolio/concepts.jpg" alt="Slide alt text"  /></div>
+        </div>  
+      </div> 
+      <span class="slider-controls">
+        <button class="prev" aria-label="Previous slide">Prev</button>
+        <button class="next" aria-label="Next slide">Next</button> 
+      </span> 
+    </div>
+    <h2>My Tech Stack and Engineering Principles</h2>
+    <p>
+        I was able to learn many different frameworks, APIs, and protocols.
+        I am fluent in Java, Python, and C++ with working knowledge of HTML/CSS/Javascript. 
+        I have an extensive background in CI/CD, Agile Methods, Object-Oriented Design, Natural Language Processing, and so on.
+        This thorough understanding has made me equipped to learn new technologies quickly and effectively.
+    </p> 
+    <!--
+    <p><a href="https://onepagelove.com/sphere" class="cta-project" title="Visit custom link">Link →</a></p>
+    -->
+    <hr />   
+
+  </div>
+</section>
+<!-- Portfolio end -->
+
+<section class="bg-alt"> 
+  <div class="bio-section">
+      <div class="bio-image" id="about">
+        <img src="./assets/img/global/selfie.png" alt="Photo of Said Ikki" />
+      </div>
+      <div class="bio-text">
+        <p>
+          Whether it is Langchain, TCP/IP, Database Management, Software Security, Machine Learning, or Anything Software-Adjacen, 
+          if you need anything software, don't hesitate to reach out!
+        </p>
+        <div class="bio-links">
+          <ul>      
+            <li><a id="email" onclick="copyToClipboard(this.id)">Email</a></li>
+            <li><a href="#top">Back To Top</a></li>              
+          </ul>
+          <ul>
+            <li><a href="https://www.linkedin.com/in/said-ikki-b28a9224b/">LinkedIn</a></li>
+            <li><a href="https://github.com/Said-Ikki">Github</a></li>
+          </ul>
         </div>
-    </main>
-    <script src="index.js"></script>
-  </body>
+      </div>
+    </div>
+</section>
+<footer class="site-footer">
+  <p class="footer-left">© 2026 Said Ikki</p>
+  <p class="footer-right">
+    <a href="ssikki@lakeheadu.ca">ssikki@lakeheadu.ca</a> for inquiries
+  </p>
+</footer>
+</body>
 </html>
